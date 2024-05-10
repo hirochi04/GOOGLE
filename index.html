@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Esto le dice al navegador que estamos hablando de HTML5 -->
 <html lang="en">
-<head>
+<head> <!--Estructura no visible en el proyecto pero que se necesita en el navegador para manejar dependencias y ciertos metas importantes -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body> <!--Aquí irá todo el contenido que el usuario podrá ver-->
     <header>
         <nav>
             <ul class="nav-right-section">
@@ -22,17 +22,23 @@
         </nav>
     </header>
 
+<!--Considerando el SEO, se usa main para lo que va después del header y  antes de footer -->
+
 <main>
+    <!--Sección del logo -->
     <section class="main-logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
     </section>
-
+    <!--Sección del buscador -->
     <section class="main-input">
         <div class="main-input-container">
+    <!--Logo de lupa -->
         <span class="search-icon">
 
         </span>
+    <!--Es donde el usuario escribirá lo que desea buscar -->
         <input type="text">
+    <!--En el micrófono se usa anchor para simular el comportamiento de un enlace -->
         <a class="micro-icon" href=""></a>
         </div>
     </section>
